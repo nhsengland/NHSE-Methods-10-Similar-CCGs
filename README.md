@@ -25,11 +25,13 @@ The following packages are required to be installed in R:
 The R file takes as input one Excel file which has two worksheets:
 *	Variable Data: variable data on CCG level
 *	Variable Descriptions: descriptions of the variables and the weights associated with each
+
 And produces one output Excel file which has 4 worksheets: 
 *	CCG similar matrix: This is a matrix of all CCGs similarity values.
 *	Top 10 CCG similarity values: This is a table for the top 10 CCGs similarity values for each CCG.
 *	Top 10 CCG names: This is a table of the top 10 CCGs names for each CCG.
 *	Top 10 CCG codes: This is a table of the top 10 CCGs codes for each CCG.
+
 Each year, the input file is modified with the latest data and the filepaths are changed in the code to reflect the latest year – line 37, lines 41-42 and line 203. The file is then saved with the same version number and we change the date in the filename to reflect the updated save date.
 No other modifications are usually made to the code.
 If there are more variables that are required as input, then the code would need updating. 
