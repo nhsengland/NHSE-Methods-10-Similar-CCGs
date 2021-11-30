@@ -47,6 +47,8 @@ A 2-stage approach is used:
    c) Subtract mean and divide by the standard deviation (of square-rooted values)
 2. A calculation of similarity (Euclidean distance) is then completed - this uses the standardised variables for two CCGs in each pair from the first stage of this approach and the weights associated with each variable. 
 This produces a distance matrix, ranking the similarity distance between each CCG. The similar CCGs are those with the lowest value in this matrix. 
+
+
 10 steps in R code:
 There are overall 10 steps in the code which use the 2-stage approach as mentioned above. The steps are as follows:
 1.	R libraries are loaded
